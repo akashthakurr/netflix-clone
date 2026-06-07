@@ -1,11 +1,13 @@
 .hero{
     position: relative;
     height: 100vh;/*added by exera*/
+    width: 100vw;
 }
 .banner-img{
     width: 100%;
     height: 100%; /*added by exerta*/
     object-fit: cover; /*added by exerta*/
+    object-position: center center;  /*added by exerta*/
     mask-image: linear-gradient(to right, transparent, black 75%);
     -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
 }
@@ -89,12 +91,16 @@
     .more-cards{
         padding-left: 4%;
     }
+    .hero{
+        height: 70vh;
+    }
+
 }
 @media (max-width:500px){
-    .caption-img{
-        display: none;
+    /* .caption-img{
+        /* display: none; */
 
-    }
+    } */
     .hero-btns .btn img{
         width: 15px;
     }
@@ -103,4 +109,12 @@
         gap: 5px;
         font-size: 10px;
     }
+    .hero{
+        height: 60vh;
+    }
+    .banner-img{
+        object-position: center;
+
+    }
+
 }
