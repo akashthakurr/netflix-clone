@@ -98,9 +98,9 @@
 }
 @media (max-width:500px){
     /* .caption-img{
-        /* display: none; */
+        /* display: none; 
 
-    } */
+    }*/
     .hero-btns .btn img{
         width: 15px;
     }
