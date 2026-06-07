@@ -1,6 +1,6 @@
 import React, {useRef,useEffect, useState} from 'react'
 import './TitileCards.css'
-import cards_data from '../../assets/cards/Cards_Data'
+import cards_data from '../../assets/cards/Cards_data'
 import { Link } from 'react-router-dom';
 
 
